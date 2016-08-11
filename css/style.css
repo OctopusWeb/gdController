@@ -1,0 +1,20 @@
+body,html{width: 100%;height: 100%;position: relative;font-family: "微软雅黑";}
+#content{height: 100%;background: #f1f1f1;}
+#content .mui-row{height: 100%;}
+
+#content_title{height: 100%;background: #263240;padding: 0;}
+#content_title #title_logo{width: 100%;float: left;border-bottom: 1px #354658 solid;margin-top: 30px;}
+#content_title #title_logo img{width: 50%;float: left;margin:10px 25%;border-radius: 50%;border:3px #83d1db solid;}
+#content_title #title_logo h1{width: 100%;float: left;font-size: 18px;color: #fff;text-align: center;margin: 10px 0;}
+
+#content_title #title_nav{width: 100%;float: left;margin-top: 50px;}
+#content_title #title_nav .selected{background: rgba(255,255,255,0.2);border-left: 2px #fff solid;}
+#content_title #title_nav div{float: left;position: relative;width: 100%;border-bottom: 1px #354658 solid;height: 50px;margin-top: 10px;padding-left: 10%;}
+#content_title #title_nav img{width: 20px;float: left;margin-top: 15px;margin-left: 10px;}
+#content_title #title_nav h2{float: left;font-size: 14px;color: #cfdbea;position: absolute;width: 100%;text-align: center;margin: 0;line-height: 50px;}
+
+#content_content{padding: 0;margin: 0;}
+#content_content div{float: left;width: 100%;display: none;}
+#content_content div h1{font-size: 20px;width: 100%;padding-left: 3%;float: left;margin: 0;line-height: 60px;border-bottom: 1px #ccc solid;}
+#content_content div button{margin-top: 20px;margin-left: 3%;}
+#content_content .selectedDiv{display: block;}
